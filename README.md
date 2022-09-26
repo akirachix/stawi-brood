@@ -13,6 +13,8 @@ Arduino, 12DC Gear Motor, Selanoid valve, Flow meter, Jumper wires, Breadboard, 
 **Technologies Used:**
 
 C++, Python
+
 **Contact Deatails:**
+
 If you think there are places we can improve on, change or add in our project feel free to contact us at @conslatekoyo@gmail.com, @virginiaanjeri@gmail.com, @awuornancy66@gmail.com, @mitchellehopewaithera@gmail.com
 Copyright (c) [2022] [StawiBrood]
