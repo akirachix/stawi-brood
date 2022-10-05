@@ -1,10 +1,4 @@
-/*
- * Created by ArduinoGetStarted.com
- *
- * This example code is in the public domain
- *
- * Tutorial page: https://arduinogetstarted.com/tutorials/arduino-cooling-system-using-dht-sensor
- */
+
 
 #include "DHT.h"
 
