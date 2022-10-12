@@ -1,29 +1,72 @@
 import React from "react";
 import { Link } from "react-scroll";
 import stawibrood from "../images/Stawibrood.png";
-import './style.css'
+
+import "./style.css";
 
 function Navbar() {
   return (
-    <div>
-      <nav>
-        <Link to="main" className="logo">
-          <img src={stawibrood} alt="logo" />
-        </Link>
-        <input className="menu-btn" type='check-box' id='menu-btn'/>
-        <label className="menu-icon" for='menu-btn'></label>
-        <span className="nav-icon"></span>
+    <div className="navbar">
+      <nav className="header">
+        <div className="logo-nav">
+          <Link to="main" className="logo">
+            <img src={stawibrood} alt="logo" />
+          </Link>
+        </div>
+
         <ul>
-            <li> <Link to="main" className="active">Home</Link> </li>
-            <li> <Link to="main" className="active"></Link> </li>
-            <li> <Link to="main" className="active"></Link> </li>
-            <li> <Link to="main" className="active"></Link> </li>
-            <li> <Link to="main" className="active"></Link> </li>
-            <li> <Link to="main" className="active"></Link> </li>
-
-
+          <li>
+            <a href="Navbar">About</a> 
+          </li>
+          <li>
+            <a href="#product">Our product</a>
+          </li>
+          <li>
+            <a href="#Team">Our Team</a>
+          </li>
+          <li>
+            <a href="#contact">Contact Us</a>
+          </li>
         </ul>
+        {/* <li> <Link to="#" className="hey">App</Link> </li> */}
       </nav>
+      <div className="stawi">
+        <h3>StawiBrood is here to</h3>
+        <h1>
+          Give your brooder a <br></br>fighting chance
+        </h1>
+        
+      </div>
+      {/* <div className="sifa">
+        
+          <div className="affordable">
+          <i class="fa-light fa-crosshairs-simple"></i>
+            <h3>Affordable</h3>
+            <p>
+              StawiBrood regulates humidity <br></br>
+              within the brooder to keep <br></br> it warm
+            </p>
+          </div>
+          <div className="accurate">
+            
+          <i class="fa-solid fa-temperature-quarter"></i>
+
+            <h3>Accurate</h3>
+            <p>
+              StawiBrood regulates humidity <br></br>
+              within the brooder to keep <br></br> it warm
+            </p>
+          </div>
+          <div className="profitable">
+          <i class="fa-solid fa-temperature-quarter"></i>
+
+            <h3>Profitable</h3>
+            <p>
+              StawiBrood regulates humidity <br></br>
+              within the brooder to keep <br></br> it warm
+            </p>
+          </div>
+        </div> */}
     </div>
   );
 }
