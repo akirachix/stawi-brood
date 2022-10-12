@@ -1,5 +1,4 @@
 import React from "react";
-import chicks from "../images/chicks.jpg";
 
 function Howitworks() {
   return (
@@ -10,12 +9,9 @@ function Howitworks() {
         </div>
         <div className="boxess">
           <div className="boxx1">
-            {/* <i class="fa-solid fa-temperature-quarter"></i> */}
-
             <h3>Temparature</h3>
             <p>
-              StawiBrood regulates humidity
-              within the brooder to keep <br></br> it warm
+              StawiBrood regulates humidity within the brooder to keep <br></br> it warm
             </p>
           </div>
           <div className="boxx2">
@@ -36,7 +32,6 @@ function Howitworks() {
         </div>
         <div className="box2"></div>
       </div>
-
     </div>
   );
 }
