@@ -33,7 +33,7 @@ function Navbar() {
         </ul>
       </nav>
       <div className="stawi">
-        <h3>StawiBrood is here to</h3>
+        <h2>StawiBrood is here to</h2>
         <h1>
           Give your chicks a <br></br>fighting chance
         </h1>

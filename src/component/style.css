@@ -200,7 +200,7 @@ second section */
   width: 200px;
   height: 200px;
   padding: 10px;
-  box-shadow: 5px 5px 5px 10px #dbd9d9;
+  box-shadow: 5px 5px 5px 10px #EADB3C;
   border-radius: 20px;
   justify-content: space-around;
 }
@@ -209,7 +209,7 @@ second section */
   width: 200px;
   height: 200px;
   padding: 10px;
-  box-shadow: 5px 5px 5px 10px #dbd9d9;
+  box-shadow: 5px 5px 5px 10px #EADB3C;
   border-radius: 20px;
   justify-content: space-around;
 }
@@ -218,13 +218,17 @@ second section */
   width: 200px;
   height: 200px;
   padding: 10px;
-  box-shadow: 5px 5px 5px 10px #dbd9d9;
+  box-shadow: 5px 5px 5px 10px #EADB3C;
   border-radius: 20px;
   justify-content: space-around;
 }
+h2 {
+  color: #EADB3C;
+  font-weight: 900;
+}
 
 h3 {
-  color: #EADB3C;
+  color: blue;
   font-weight: 900;
 }
 
