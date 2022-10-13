@@ -16,23 +16,26 @@ function Navbar() {
 
         <ul>
           <li>
-            <a href="Navbar">About</a>
-          </li>
-          <li>
-            <a href="#product">Our product</a>
+            <a href="#contact">Contact Us</a>
           </li>
           <li>
             <a href="#Team">Our Team</a>
           </li>
           <li>
-            <a href="#contact">Contact Us</a>
+            <a href="#product">Our product</a>
           </li>
+          <li>
+            <a href="Navbar">About</a>
+          </li>
+          
+          
+          
         </ul>
       </nav>
       <div className="stawi">
         <h3>StawiBrood is here to</h3>
         <h1>
-          Give your brooder a <br></br>fighting chance
+          Give your chicks a <br></br>fighting chance
         </h1>
       </div>
     </div>

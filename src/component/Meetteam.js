@@ -14,23 +14,23 @@ function Meetteam() {
         <div className="koyo">
           <img src={koyo} width={206} height={200} />
           <h4>Conslate Koyo</h4>
-          <p>software developer</p>
+          <p>Software Developer</p>
         </div>
         <div className="virgy">
           <img src={Virginia} width={206} height={200} />
           <h4>Virginia Njeri</h4>
-          <p>software developer</p>
+          <p>Software Developer</p>
         </div>
         <div className="nancy">
           <img src={Nancy} width={206} height={200} />
           <h4>Nancy Awour</h4>
-          <p>software developer</p>
+          <p>Software Developer</p>
         </div>
 
         <div className="mitchie">
           <img src={Mitchie} width={206} height={200} />
           <h4>Mitchelle Hope</h4>
-          <p>software developer</p>
+          <p>Software Developer</p>
         </div>
       </div>
     </div>

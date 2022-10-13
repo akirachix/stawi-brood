@@ -15,11 +15,12 @@ function Ourproduct() {
         <div className="para">
           <h1>StawiBrood</h1>
           <p>
-            The StawiBrood's goal is to keep the brooder'stemperature and humidity <br></br> at optimal levels. When the
-            temperature exceeds a certain threshold, the <br></br> fan activates and cools the brooder; similarly, when the
-            temperature falls <br></br> below the optimum, the brooder bulb activates and warms the brooder to <br></br>the
-            desired or required temperature. The feeding of feeds and water is<br></br>automated to ensure that the chicks are fed
-            efficiently and that the <br></br> farmer is not overstretched.
+            The StawiBrood's goal is to automate the brooder's temperature and humidity <br></br> at optimal levels to meet the chick's requirement. When the
+            When temperature exceeds the needed threshold, the fan is activated hence good air circulation within the brooder; similarly, when the
+            temperature decreases below the optimum level , the brooder bulb is activated and the brooder is warmed to the
+            desired or required temperature. The feeding and drinking is 
+            automated to ensure that the chicks are fed
+            at different needed times <br></br> .
           </p>
         </div>
       </div>

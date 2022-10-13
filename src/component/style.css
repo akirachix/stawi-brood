@@ -16,10 +16,30 @@
 }
 
 .navbar {
+  
   background-image: url("/src/images/Background\ Image.png");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
+
+.video-responsive {
+  overflow: none;
+  padding-bottom: 56.15%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin-top: 5%;
+}
+
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -204,7 +224,7 @@ second section */
 }
 
 h3 {
-  color: orange;
+  color: #EADB3C;
   font-weight: 900;
 }
 
@@ -248,4 +268,74 @@ h3 {
 #contact {
   background-color: #2a2c4c;
   color: white;
+  height: 40vh;
 }
+
+#contact h1{
+  padding-top: 10px;
+}
+
+#contact p{
+  margin-top: 20px;
+}
+
+.Singlecall {
+  max-width: 750px;
+
+}
+
+/* .social-media-icons-white-a {
+  color: white;
+  font-size: 20rem;
+  
+} */
+
+.social-media-icons{
+  font-size: 30px;
+  /* display: flex; */
+  flex-direction: column;
+  margin-left: 38px;  
+  margin-top: -18%;
+  padding-top: 160px;
+  
+  
+  justify-content: space-evenly; 
+
+}
+
+/* .social-media-icons p{
+  color: white;
+  display: flex;
+  font-size: 10px;
+} */
+.icon{
+  color: white;
+  margin-right: 10px;
+  padding-top: 20px;
+}
+.icontwo{
+  color: white;
+  margin-right: 10px;
+
+}
+.iconthree{
+  color: white;
+  margin-right: 10px;
+
+}
+.iconfour{
+  color: white;
+  margin-right: 10px;
+
+}
+.iconfive{
+  color: white;
+  margin-right: 10px;
+
+
+}
+
+.footer{
+  height: 12vh;
+}
+

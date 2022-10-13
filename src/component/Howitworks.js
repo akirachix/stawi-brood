@@ -9,24 +9,25 @@ function Howitworks() {
         </div>
         <div className="boxess">
           <div className="boxx1">
-            <h3>Temparature</h3>
+            <h3>Humidity</h3>
             <p>
-              StawiBrood regulates humidity within the brooder to keep <br></br> it warm
+              StawiBrood regulates the humidity within the brooder to by 
+              controlling the flow of air in and out of the brooder
             </p>
           </div>
           <div className="boxx2">
             <i class="fa-light fa-droplet-degree"></i>
-            <h3>Humidity</h3>
+            <h3>Temperature</h3>
             <p>
-              StawiBrood regulates humidity <br></br>
-              within the brooder to keep <br></br> the brooder good air circulation
+              StawiBrood regulates temperature within the brooder by 
+              adjusting brooding temperature to fit what the chicks need 
             </p>
           </div>
           <div className="boxx3">
-            <h3>feeds and water</h3>
+            <h3>Feeds and Water</h3>
             <p>
-              StawiBrood automates <br></br>
-              feedings of both water <br></br> and food within the brooder
+              StawiBrood automates 
+              the feed and water intake at regulated time intervals
             </p>
           </div>
         </div>
