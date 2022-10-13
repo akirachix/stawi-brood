@@ -1,4 +1,251 @@
-.logo img{
-    width: 90px;
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+* {
+  font-family: "Nunito", sans-serif;
+}
+.logo img {
+  width: 100px;
+  margin-left: 10%;
+}
+.header {
+  margin-top: -10%;
+  display: flex;
+  padding: 10%;
+  justify-content: space-between;
+  margin-top: -9%;
+  text-align: center;
+}
 
+.navbar {
+  background-image: url("/src/images/Background\ Image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  margin-left: 40%;
+}
+.profitable {
+  background-color: #2a2c4c;
+  opacity: 0.7;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 20px;
+  justify-content: space-around;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #2a2c4c;
+}
+
+.stawi {
+  color: white;
+  margin-left: -50%;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-top: -7%;
+  text-align: center;
+  justify-content: center;
+}
+.box1 {
+  color: aliceblue;
+}
+.card {
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 300px;
+  height: 200px;
+  color: aliceblue;
+  border: 2px solid;
+  margin-left: 7%;
+  background-color: white;
+  margin-top: -5%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.cards {
+  display: flex;
+}
+.about {
+  color: blue;
+  margin-top: 5%;
+}
+.sifa {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 10px 10px 10px;
+}
+.accurate {
+  background-color: #2a2c4c;
+  opacity: 0.6;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 20px;
+  justify-content: space-around;
+  color: white;
+}
+
+.profitable {
+  background-color: #2a2c4c;
+  opacity: 0.6;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 20px;
+  justify-content: space-around;
+  color: white;
+}
+.affordable {
+  background-color: #2a2c4c;
+  opacity: 0.7;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 20px;
+  justify-content: space-around;
+  color: white;
+}
+/* product component css 
+second section */
+.product1 {
+  display: flex;
+  color: black;
+  height: 70vh;
+}
+
+.brooder {
+  margin-left: 30%;
+}
+.our {
+  margin-left: 14%;
+  margin-top: 2%;
+  
+}
+
+.product {
+  border: #2a2c4c;
+}
+.para {
+  margin-left: 30%;
+  margin-left: 15%;
+  margin-top: -1%;
+}
+.realBrooder {
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+/* How stawi product works */
+/* component:how it work */
+.how-it-works{
+  margin-top: -6%;
+  color: blue;
+
+}
+
+.section2 {
+  height: 70vh;
+}
+
+.boxess {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 10px 10px 10px;
+}
+.boxx1 {
+  background: white;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 10px #dbd9d9;
+  border-radius: 20px;
+  justify-content: space-around;
+}
+.boxx2 {
+  background: white;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 10px #dbd9d9;
+  border-radius: 20px;
+  justify-content: space-around;
+}
+.boxx3 {
+  background: white;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 10px #dbd9d9;
+  border-radius: 20px;
+  justify-content: space-around;
+}
+
+h3 {
+  color: orange;
+  font-weight: 900;
+}
+
+/* team */
+.meet {
+  margin-top: -2rem;
+  /* margin-left: 5%;
+  display: flex; */
+}
+.hehe{
+  color:blue;
+  margin-top: -7%;
+}
+/* .ourteam{
+  margin-top: -9%;
+  margin-left: 10%; */
+
+.team {
+  display: flex;
+  margin-left: 5%;
+}
+.koyo {
+  margin-left: 5%;
+}
+.virgy {
+  margin-left: 6%;
+}
+.mitchie {
+  margin-left: 8%;
+}
+.nancy {
+  margin-left: 5%;
+}
+.ourteam {
+  margin-top: -20%;
+  margin-left: 30%;
+}
+
+/* footer section style */
+
+#contact {
+  background-color: #2a2c4c;
+  color: white;
 }
