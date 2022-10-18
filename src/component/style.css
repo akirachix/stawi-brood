@@ -109,7 +109,7 @@ li a:hover {
   display: flex;
 }
 .about {
-  color: blue;
+  color: #2a2c4c;
   margin-top: 5%;
 }
 .sifa {
@@ -182,7 +182,7 @@ second section */
 /* component:how it work */
 .how-it-works{
   margin-top: -6%;
-  color: blue;
+  color: #2a2c4c;
 
 }
 
@@ -200,7 +200,7 @@ second section */
   width: 200px;
   height: 200px;
   padding: 10px;
-  box-shadow: 5px 5px 5px 10px #EADB3C;
+  box-shadow: 5px 5px 5px 10px #2a2c4c;
   border-radius: 20px;
   justify-content: space-around;
 }
@@ -209,7 +209,7 @@ second section */
   width: 200px;
   height: 200px;
   padding: 10px;
-  box-shadow: 5px 5px 5px 10px #EADB3C;
+  box-shadow: 5px 5px 5px 10px #2a2c4c;
   border-radius: 20px;
   justify-content: space-around;
 }
@@ -218,7 +218,7 @@ second section */
   width: 200px;
   height: 200px;
   padding: 10px;
-  box-shadow: 5px 5px 5px 10px #EADB3C;
+  box-shadow: 5px 5px 5px 10px #2a2c4c;
   border-radius: 20px;
   justify-content: space-around;
 }
@@ -228,7 +228,7 @@ h2 {
 }
 
 h3 {
-  color: blue;
+  color: #2a2c4c;
   font-weight: 900;
 }
 
@@ -239,7 +239,7 @@ h3 {
   display: flex; */
 }
 .hehe{
-  color:blue;
+  color:#2a2c4c;
   margin-top: -7%;
 }
 /* .ourteam{
