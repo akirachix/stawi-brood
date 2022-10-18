@@ -32,22 +32,22 @@ function Footer() {
                       <FontAwesomeIcon className="icontwo" icon={faTwitter}/>
 
                   </a>
-                  <a href="https://instagram.com">
-                      <FontAwesomeIcon className="iconthree" icon={faInstagram}/>
+                  <a href="https://linkedin.com">
+                      <FontAwesomeIcon className="iconthree" icon={faLinkedin}/>
 
                   </a>
                   {/* <p>Stawi_Brood</p>  */}
 
-                  <a href="https://tiktok.com">
+                  {/* <a href="https://tiktok.com">
                       <FontAwesomeIcon className="iconfour" icon={faTiktok}/>
 
-                  </a>
+                  </a> */}
                   {/* <p>@StawiBrood</p>  */}
 
-                  <a href="https://youtube.com">
+                  {/* <a href="https://youtube.com">
                       <FontAwesomeIcon className="iconfive" icon={faYoutube}/>
 
-                  </a>
+                  </a> */}
                   {/* <p>StawiBrood</p>  */}
 
               </div>
