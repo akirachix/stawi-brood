@@ -1,10 +1,10 @@
-import React from "react";
 import koyo from "../images/Koyo.png";
 import Nancy from "../images/Nancy.png";
 import Virginia from "../images/Virginia.png";
 import Mitchie from "../images/mitchie.png";
+import "./Ourteam.css"
 
-function Meetteam() {
+function Ourteam() {
   return (
     <div className="meet" id="Team">
       <div className="hehe">
@@ -37,4 +37,4 @@ function Meetteam() {
   );
 }
 
-export default Meetteam;
+export default Ourteam;

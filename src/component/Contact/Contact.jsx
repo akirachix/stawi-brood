@@ -1,13 +1,9 @@
-import React from "react";
-// import 'bootstrap/dist/css/bootstrap.min.css';
-import "./style.css";
 
-// import {Container} from 'react-bootstrap'
-
+import "./contact.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import{faFacebook, faTwitter ,faInstagram,faLinkedin, faTiktok ,faYoutube} from '@fortawesome/free-brands-svg-icons'
 
-function Footer() {
+function Contact() {
   return (
       <div className="footer">
 
@@ -57,4 +53,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default Contact;

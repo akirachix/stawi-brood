@@ -4,7 +4,8 @@
 }
 .logo img {
   width: 100px;
-  margin-left: 10%;
+  margin-right: 80px;
+  margin-top: -24px;
 }
 .header {
   margin-top: -10%;
@@ -17,28 +18,11 @@
 
 .navbar {
   
-  background-image: url("/src/images/Background\ Image.png");
+  background-image: url("/src/component/images/Background\ Images.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 }
-
-.video-responsive {
-  overflow: none;
-  padding-bottom: 56.15%;
-  position: relative;
-  height: 0;
-}
-
-.video-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  margin-top: 5%;
-}
-
 
 ul {
   list-style-type: none;
@@ -267,7 +251,7 @@ h3 {
   margin-left: 30%;
 }
 
-/* footer section style */
+/* footer*/
 
 #contact {
   background-color: #2a2c4c;
@@ -342,4 +326,3 @@ h3 {
 .footer{
   height: 12vh;
 }
-

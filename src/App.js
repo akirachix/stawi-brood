@@ -1,19 +1,19 @@
 import "./App.css";
-import React from "react";
-import Header from "./component/Header";
-import Ourproduct from "./component/Ourproduct";
-import Howitworks from "./component/Howitworks";
-import Footer from "./component/Footer";
-import Meetteam from "./component/Meetteam";
+import Contact from "./component/Contact/Contact";
+import Header from "./component/Header/Header";
+import Howitworks from "./component/Howitworks/Howitworks";
+import Ourproduct from "./component/Ourproduct/Ourproduct";
+import Ourteam from "./component/Ourteam/Ourteam";
+
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Ourproduct />
-      <Howitworks />
-      <Meetteam />
-      <Footer />
+     <Header/>
+     <Ourproduct/>
+     <Howitworks/>
+     <Ourteam/>
+     <Contact/>
     </div>
   );
 }

@@ -1,0 +1,27 @@
+.product1 {
+    display: flex;
+    color: black;
+    height: 70vh;
+  }
+  
+  .brooder {
+    margin-left: 30%;
+  }
+  .our {
+    margin-left: 14%;
+    margin-top: 2%;
+    
+  }
+  
+  .product {
+    border: #2a2c4c;
+  }
+  .para {
+    margin-left: 30%;
+    margin-left: 15%;
+    margin-top: -1%;
+  }
+  .realBrooder {
+    margin-left: 5%;
+    margin-top: 2%;
+  }
