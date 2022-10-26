@@ -53,10 +53,24 @@
   /* team */
   .meet {
     margin-top: -2rem;
-    /* margin-left: 5%;
-    display: flex; */
+    margin-left: 5%;
+    display: flex;
   }
   .hehe{
     color:#2a2c4c;
     margin-top: -7%;
   }
+
+  @media screen and (max-width: 992px){
+    .boxess {
+     margin-left: 120px;
+     display: inline;
+     
+    }
+
+  }
+  @media screen and (max-width: 600px){
+    
+  }
+
+ 

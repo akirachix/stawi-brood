@@ -9,9 +9,9 @@ function Navbar() {
     <div className="navbar">
       <nav className="header">
         <div className="logo-nav">
-          {/* <Link to="main" className="logo">
-            <img src={stawibrood} alt="logo" />
-          </Link> */}
+          <Link to="main" className="logo">
+            {/* <img src={stawibrood} alt="logo" /> */}
+          </Link>
         </div>
 
         <ul>

@@ -18,3 +18,14 @@
     margin-top: -20%;
     margin-left: 30%;
   }
+
+  @media screen and (max-width: 992px){
+.team{
+  display: inline;
+}
+  }
+  @media screen and (max-width: 600px){
+    .team{
+      display: inline;
+    }
+  }
